@@ -68,11 +68,4 @@ To point the frontend at a different backend URL, set `VITE_API_BASE_URL`
   and opens its popup with the risk % and contributing conditions.
 - Orange/white theme sampled from your logo.
 
-## Not yet wired up (left for you)
 
-- Real weather/fuel-moisture data source to compute risk % (you said you'd
-  decide later - NIFC, NASA FIRMS, NOAA, your own feed, etc.)
-- A trained risk-prediction model isn't connected to anything yet -
-  `riskPct` is currently hand-set mock data per zone. Swapping in real model
-  output just means changing what `RiskZoneService#getAllRiskZones()`
-  returns.
