@@ -4,8 +4,7 @@ A wildfire **ignition-risk** detector scoped to California, built with a React
 frontend (Leaflet map + risk zone sidebar) and a small Java backend. Rather
 than tracking currently-burning fires, it shows a percentage likelihood of a
 wildfire starting at a given location, derived from conditions like heat,
-humidity, wind, and dry-spell length. Color scheme matches your WILDFIRE logo
-(orange `#e8720d` on white).
+humidity, wind, and dry-spell length.
 
 Data is currently **placeholder/mock** - seven sample California risk zones.
 Swap it out later for a real feed or your risk-prediction model without
