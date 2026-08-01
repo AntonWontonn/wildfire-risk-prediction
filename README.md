@@ -46,13 +46,7 @@ npm install
 npm run dev
 ```
 
-Opens at **http://localhost:5173**. It tries to fetch risk zones from
-`http://localhost:8080/api/risk-zones`; if the backend isn't running, it
-falls back to the same mock data baked into the frontend, so the UI still
-works standalone.
-
-To point the frontend at a different backend URL, set `VITE_API_BASE_URL`
-(e.g. in a `.env` file) before running `npm run dev` / `npm run build`.
+Also opens at https://antonwontonn.github.io/wildfire-risk-prediction/
 
 ## What's implemented
 
